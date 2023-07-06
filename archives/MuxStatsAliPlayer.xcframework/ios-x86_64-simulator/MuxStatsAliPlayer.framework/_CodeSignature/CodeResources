@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MuxStatsAliPlayer-Swift.h</key>
 		<data>
-		R8pQNaLxVIeqxfV3qrXBg6H9hxA=
+		UJqylkzAqtnjRyFYnCMI1CDO9VI=
 		</data>
 		<key>Headers/MuxStatsAliPlayer-umbrella.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vfk9BLcVutSC+z8VkTG/df/cdhI=
+		e8rE3bcwBO2JraAEvn//kWxbCP0=
 		</data>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cAudzSfdTX9VNy9GfLLvg08cpKo=
+		znWb/LuOMRpBQX1Ae6nL9FA2ky4=
 		</data>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cAudzSfdTX9VNy9GfLLvg08cpKo=
+		znWb/LuOMRpBQX1Ae6nL9FA2ky4=
 		</data>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6unHatpcx1vA+8DioN0N371T8qA=
+		5Bl6pw7nsMMJXirkQnChnWyoays=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LH1DyZ7kEhjbOt25dSaNNcF2vpaEltkvwT009ecZR9M=
+			YKt+vBGdeF+iL58doLBjmMt9DRsiPw8CXOe+78gHkiM=
 			</data>
 		</dict>
 		<key>Headers/MuxStatsAliPlayer-umbrella.h</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/xf3k0pXbMeqSb9Y/o0GS+a3dnvErxeqZCDEYB7GoQM=
+			dtwaf6tNO+V21JKK2n4e1Zaxe8uAbQuDlpW9GRXxiPA=
 			</data>
 		</dict>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJnyBkW5h1xEo3PqZuVaNat5Jsui4q45BVJLKitnE2M=
+			Kcipd0veMCF6iUGpMfeVsXxH4QzaPr3y9mpvZXZmHys=
 			</data>
 		</dict>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJnyBkW5h1xEo3PqZuVaNat5Jsui4q45BVJLKitnE2M=
+			Kcipd0veMCF6iUGpMfeVsXxH4QzaPr3y9mpvZXZmHys=
 			</data>
 		</dict>
 		<key>Modules/MuxStatsAliPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l8Dw2sXndtUHJ3N886QNbbGhNZBNaPyIdPWgDNJNSdk=
+			kO7bXn5Gli7Ei6YJ83XizEUTXKAV30hwEezG7RlL6XM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

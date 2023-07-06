@@ -99,40 +99,40 @@ extension MuxStatsAliPlayer.MLYAliPlayer : AliyunPlayer.AVPDelegate {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MUXSDKCustomerCustomDataStore : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @objcMembers public class MUXAliSDKCustomerCustomDataStore : ObjectiveC.NSObject {
   @objc public func setCustomData(_ customData: MuxCore.MUXSDKCustomData, forPlayerName name: Swift.String)
   @objc public func removeData(forPlayerName name: Swift.String)
   @objc public func customData(forPlayerName name: Swift.String) -> MuxCore.MUXSDKCustomData?
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MUXSDKCustomerPlayerDataStore : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @objcMembers public class MUXAliSDKCustomerPlayerDataStore : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public func playerData(forPlayerName name: Swift.String) -> MuxCore.MUXSDKCustomerPlayerData?
   @objc public func removeData(forPlayerName name: Swift.String)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MUXSDKCustomerVideoDataStore : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @objcMembers public class MUXAliSDKCustomerVideoDataStore : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public func setVideoData(_ videoData: MuxCore.MUXSDKCustomerVideoData, forPlayerName name: Swift.String)
   @objc public func removeData(forPlayerName name: Swift.String)
   @objc public func videoData(forPlayerName name: Swift.String) -> MuxCore.MUXSDKCustomerVideoData?
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MUXSDKCustomerViewDataStore : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @objcMembers public class MUXAliSDKCustomerViewDataStore : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public func setViewData(_ viewData: MuxCore.MUXSDKCustomerViewData, forPlayerName name: Swift.String)
   @objc public func removeData(forPlayerName name: Swift.String)
   @objc public func viewData(forPlayerName name: Swift.String) -> MuxCore.MUXSDKCustomerViewData?
   @objc deinit
 }
-@objc @objcMembers public class MUXSDKPlayerBinding : ObjectiveC.NSObject {
+@objc @objcMembers public class MUXAliSDKPlayerBinding : ObjectiveC.NSObject {
   @objc public init(name: Swift.String, software: Swift.String)
   @objc deinit
   @objc public func handleAVPlayerAccess(_ notif: Foundation.Notification)
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
-extension MuxStatsAliPlayer.MUXSDKPlayerBinding : AliyunPlayer.AVPDelegate {
+extension MuxStatsAliPlayer.MUXAliSDKPlayerBinding : AliyunPlayer.AVPDelegate {
   @objc dynamic public func onError(_ player: AliyunPlayer.AliPlayer!, errorModel: AliyunPlayer.AVPErrorModel!)
   @objc dynamic public func onPlayerEvent(_ player: AliyunPlayer.AliPlayer!, eventType: AliyunPlayer.AVPEventType)
   @objc dynamic public func onPlayerStatusChanged(_ player: AliyunPlayer.AliPlayer!, oldStatus: AliyunPlayer.AVPStatus, newStatus: AliyunPlayer.AVPStatus)
@@ -140,10 +140,10 @@ extension MuxStatsAliPlayer.MUXSDKPlayerBinding : AliyunPlayer.AVPDelegate {
   @objc dynamic public func onBufferedPositionUpdate(_ player: AliyunPlayer.AliPlayer!, position: Swift.Int64)
   @objc dynamic public func onTrackChanged(_ player: AliyunPlayer.AliPlayer!, info: AliyunPlayer.AVPTrackInfo!)
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MUXSDKStats : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @objcMembers public class MUXAliSDKStats : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public static func destroyPlayer(name: Swift.String)
-  @objc public static func monitorAliPlayerViewController(_ mlyModel: MuxStatsAliPlayer.MLYMuxModel, withPlayerName name: Swift.String, customerData: MuxCore.MUXSDKCustomerData) -> MuxStatsAliPlayer.MUXSDKPlayerBinding?
+  @objc public static func monitorAliPlayerViewController(_ mlyModel: MuxStatsAliPlayer.MLYMuxModel, withPlayerName name: Swift.String, customerData: MuxCore.MUXSDKCustomerData) -> MuxStatsAliPlayer.MUXAliSDKPlayerBinding?
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PlayerBase : ObjectiveC.NSObject {

@@ -364,8 +364,8 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer12MLYUrlSource")
 
 @class MUXSDKCustomData;
 
-SWIFT_CLASS("_TtC17MuxStatsAliPlayer29MUXSDKCustomerCustomDataStore")
-@interface MUXSDKCustomerCustomDataStore : NSObject
+SWIFT_CLASS("_TtC17MuxStatsAliPlayer32MUXAliSDKCustomerCustomDataStore")
+@interface MUXAliSDKCustomerCustomDataStore : NSObject
 - (void)setCustomData:(MUXSDKCustomData * _Nonnull)customData forPlayerName:(NSString * _Nonnull)name;
 - (void)removeDataForPlayerName:(NSString * _Nonnull)name;
 - (MUXSDKCustomData * _Nullable)customDataForPlayerName:(NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
@@ -374,8 +374,8 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer29MUXSDKCustomerCustomDataStore")
 
 @class MUXSDKCustomerPlayerData;
 
-SWIFT_CLASS("_TtC17MuxStatsAliPlayer29MUXSDKCustomerPlayerDataStore")
-@interface MUXSDKCustomerPlayerDataStore : NSObject
+SWIFT_CLASS("_TtC17MuxStatsAliPlayer32MUXAliSDKCustomerPlayerDataStore")
+@interface MUXAliSDKCustomerPlayerDataStore : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (MUXSDKCustomerPlayerData * _Nullable)playerDataForPlayerName:(NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
 - (void)removeDataForPlayerName:(NSString * _Nonnull)name;
@@ -383,8 +383,8 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer29MUXSDKCustomerPlayerDataStore")
 
 @class MUXSDKCustomerVideoData;
 
-SWIFT_CLASS("_TtC17MuxStatsAliPlayer28MUXSDKCustomerVideoDataStore")
-@interface MUXSDKCustomerVideoDataStore : NSObject
+SWIFT_CLASS("_TtC17MuxStatsAliPlayer31MUXAliSDKCustomerVideoDataStore")
+@interface MUXAliSDKCustomerVideoDataStore : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setVideoData:(MUXSDKCustomerVideoData * _Nonnull)videoData forPlayerName:(NSString * _Nonnull)name;
 - (void)removeDataForPlayerName:(NSString * _Nonnull)name;
@@ -393,8 +393,8 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer28MUXSDKCustomerVideoDataStore")
 
 @class MUXSDKCustomerViewData;
 
-SWIFT_CLASS("_TtC17MuxStatsAliPlayer27MUXSDKCustomerViewDataStore")
-@interface MUXSDKCustomerViewDataStore : NSObject
+SWIFT_CLASS("_TtC17MuxStatsAliPlayer30MUXAliSDKCustomerViewDataStore")
+@interface MUXAliSDKCustomerViewDataStore : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setViewData:(MUXSDKCustomerViewData * _Nonnull)viewData forPlayerName:(NSString * _Nonnull)name;
 - (void)removeDataForPlayerName:(NSString * _Nonnull)name;
@@ -403,8 +403,8 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer27MUXSDKCustomerViewDataStore")
 
 @class NSNotification;
 
-SWIFT_CLASS("_TtC17MuxStatsAliPlayer19MUXSDKPlayerBinding")
-@interface MUXSDKPlayerBinding : NSObject
+SWIFT_CLASS("_TtC17MuxStatsAliPlayer22MUXAliSDKPlayerBinding")
+@interface MUXAliSDKPlayerBinding : NSObject
 - (nonnull instancetype)initWithName:(NSString * _Nonnull)name software:(NSString * _Nonnull)software OBJC_DESIGNATED_INITIALIZER;
 - (void)handleAVPlayerAccess:(NSNotification * _Nonnull)notif;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
@@ -415,7 +415,7 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer19MUXSDKPlayerBinding")
 @class AVPErrorModel;
 @class AVPTrackInfo;
 
-@interface MUXSDKPlayerBinding (SWIFT_EXTENSION(MuxStatsAliPlayer)) <AVPDelegate>
+@interface MUXAliSDKPlayerBinding (SWIFT_EXTENSION(MuxStatsAliPlayer)) <AVPDelegate>
 - (void)onError:(AliPlayer * _Null_unspecified)player errorModel:(AVPErrorModel * _Null_unspecified)errorModel;
 - (void)onPlayerEvent:(AliPlayer * _Null_unspecified)player eventType:(AVPEventType)eventType;
 - (void)onPlayerStatusChanged:(AliPlayer * _Null_unspecified)player oldStatus:(AVPStatus)oldStatus newStatus:(AVPStatus)newStatus;
@@ -426,11 +426,11 @@ SWIFT_CLASS("_TtC17MuxStatsAliPlayer19MUXSDKPlayerBinding")
 
 @class MUXSDKCustomerData;
 
-SWIFT_CLASS("_TtC17MuxStatsAliPlayer11MUXSDKStats")
-@interface MUXSDKStats : NSObject
+SWIFT_CLASS("_TtC17MuxStatsAliPlayer14MUXAliSDKStats")
+@interface MUXAliSDKStats : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 + (void)destroyPlayerWithName:(NSString * _Nonnull)name;
-+ (MUXSDKPlayerBinding * _Nullable)monitorAliPlayerViewController:(MLYMuxModel * _Nonnull)mlyModel withPlayerName:(NSString * _Nonnull)name customerData:(MUXSDKCustomerData * _Nonnull)customerData SWIFT_WARN_UNUSED_RESULT;
++ (MUXAliSDKPlayerBinding * _Nullable)monitorAliPlayerViewController:(MLYMuxModel * _Nonnull)mlyModel withPlayerName:(NSString * _Nonnull)name customerData:(MUXSDKCustomerData * _Nonnull)customerData SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
