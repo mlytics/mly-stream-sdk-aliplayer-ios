@@ -6,8 +6,8 @@ target 'swift-demo' do
   platform :ios, '14.0'
   project 'examples/swift-demo/swift-demo.xcodeproj'
   
-  pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios.git'
-  pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios.git'
+  pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+  pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 end
 
 target 'objective-c-demo' do 
@@ -15,8 +15,8 @@ target 'objective-c-demo' do
   platform :ios, '14.0'
   project 'examples/objective-c-demo/objective-c-demo.xcodeproj'
   
-  pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios.git'
-  pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios.git'
+  pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+  pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 end
 
 post_install do |installer|

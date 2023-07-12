@@ -5,12 +5,10 @@ Pod::Spec.new do |s|
  
   s.description      = 'MuxStatsAliPlayer'
 
-  s.homepage         = 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'github' => '1239.github.com' }
-  s.source           = { :git => 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'

@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.version      = "0.2.1.6"
   s.summary      = "A short description of MLYALISDK."
   s.description      = 'MLYALISDK'
-  s.homepage         = 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios' 
+  s.homepage         = 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer' 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mlytics' => 'rd@mlytics.com' }
-  s.source           = { :git => 'https://github.com/mlytics/mly-stream-sdk-aliplayer-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
