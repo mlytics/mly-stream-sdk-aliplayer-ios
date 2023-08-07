@@ -1,4 +1,4 @@
-# examples AliPlayer + AliMux + MLYAlilSDK 
+# mly-stream-sdk-ios-aliplayer
 
 ### use MuxStatsAliPlayer pod 
 ```
@@ -12,8 +12,8 @@
 ```
 
 ## Sample apps
-* examples/objective-c-demo - Objective C demo
-* examples/swift-demo - Swift demo
+* Examples/objective-c-demo - Objective C demo
+* Examples/swift-demo - Swift demo
 
 ## License
 

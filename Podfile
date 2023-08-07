@@ -4,7 +4,7 @@ project 'swift-demo'
 target 'swift-demo' do 
   use_frameworks!
   platform :ios, '14.0'
-  project 'examples/swift-demo/swift-demo.xcodeproj'
+  project 'Examples/swift-demo/swift-demo.xcodeproj'
   
   pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
   pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
@@ -13,7 +13,7 @@ end
 target 'objective-c-demo' do 
   use_frameworks!
   platform :ios, '14.0'
-  project 'examples/objective-c-demo/objective-c-demo.xcodeproj'
+  project 'Examples/objective-c-demo/objective-c-demo.xcodeproj'
   
   pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
   pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'

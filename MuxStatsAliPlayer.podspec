@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'GENERATE_INFOPLIST_FILE' => 'YES' }
 
-  s.ios.vendored_frameworks = 'archives/MuxStatsAliPlayer.xcframework'
+  s.ios.vendored_frameworks = 'Archives/MuxStatsAliPlayer.xcframework'
   
   s.dependency  'Mux-Stats-Core', '~> 4.5'
   s.dependency  'AliPlayerSDK_iOS', '5.5.6.0'
