@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EECE4C2A84E28D0038E8FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE4B2A84E28D0038E8FD /* AppDelegate.m */; };
+		06EECE552A84E28D0038E8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE532A84E28D0038E8FD /* Main.storyboard */; };
+		06EECE572A84E2900038E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE562A84E2900038E8FD /* Assets.xcassets */; };
+		06EECE5A2A84E2900038E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE582A84E2900038E8FD /* LaunchScreen.storyboard */; };
+		06EECE5D2A84E2900038E8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE5C2A84E2900038E8FD /* main.m */; };
+		06EECE642A84F0F60038E8FD /* License.crt in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE632A84F0F60038E8FD /* License.crt */; };
+		06EECE6B2A84F1020038E8FD /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE672A84F1020038E8FD /* PlayerViewController.m */; };
+		06EECE6C2A84F1020038E8FD /* AliPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE682A84F1020038E8FD /* AliPlayerViewController.m */; };
+		06EECE6D2A84F1020038E8FD /* HomeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE6A2A84F1020038E8FD /* HomeNavViewController.m */; };
+		939D2CECDFFCF804963EE8C8 /* Pods_ObjectiveC_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB950D417CD777FD966BC39 /* Pods_ObjectiveC_Player.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06EECE472A84E28D0038E8FD /* ObjectiveC-Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC-Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EECE4A2A84E28D0038E8FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06EECE4B2A84E28D0038E8FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06EECE542A84E28D0038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06EECE562A84E2900038E8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06EECE592A84E2900038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06EECE5B2A84E2900038E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06EECE5C2A84E2900038E8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06EECE632A84F0F60038E8FD /* License.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.crt; sourceTree = "<group>"; };
+		06EECE652A84F1020038E8FD /* AliPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliPlayerViewController.h; sourceTree = "<group>"; };
+		06EECE662A84F1020038E8FD /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		06EECE672A84F1020038E8FD /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		06EECE682A84F1020038E8FD /* AliPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliPlayerViewController.m; sourceTree = "<group>"; };
+		06EECE692A84F1020038E8FD /* HomeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavViewController.h; sourceTree = "<group>"; };
+		06EECE6A2A84F1020038E8FD /* HomeNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavViewController.m; sourceTree = "<group>"; };
+		8CD4619804B0837388E464B7 /* Pods-ObjectiveC-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC-Player.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A38D4D7C47DEC9780C2539 /* Pods-ObjectiveC-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC-Player.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player.release.xcconfig"; sourceTree = "<group>"; };
+		DCB950D417CD777FD966BC39 /* Pods_ObjectiveC_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06EECE442A84E28D0038E8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D2CECDFFCF804963EE8C8 /* Pods_ObjectiveC_Player.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EECE3E2A84E28D0038E8FD = {
+			isa = PBXGroup;
+			children = (
+				06EECE492A84E28D0038E8FD /* ObjectiveC-Player */,
+				06EECE482A84E28D0038E8FD /* Products */,
+				7AACC0973CB5D3448012B01D /* Pods */,
+				3DB9F7C4AA0E2A9843DFE339 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06EECE482A84E28D0038E8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06EECE472A84E28D0038E8FD /* ObjectiveC-Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06EECE492A84E28D0038E8FD /* ObjectiveC-Player */ = {
+			isa = PBXGroup;
+			children = (
+				06EECE4A2A84E28D0038E8FD /* AppDelegate.h */,
+				06EECE4B2A84E28D0038E8FD /* AppDelegate.m */,
+				06EECE652A84F1020038E8FD /* AliPlayerViewController.h */,
+				06EECE682A84F1020038E8FD /* AliPlayerViewController.m */,
+				06EECE692A84F1020038E8FD /* HomeNavViewController.h */,
+				06EECE6A2A84F1020038E8FD /* HomeNavViewController.m */,
+				06EECE662A84F1020038E8FD /* PlayerViewController.h */,
+				06EECE672A84F1020038E8FD /* PlayerViewController.m */,
+				06EECE532A84E28D0038E8FD /* Main.storyboard */,
+				06EECE562A84E2900038E8FD /* Assets.xcassets */,
+				06EECE582A84E2900038E8FD /* LaunchScreen.storyboard */,
+				06EECE5B2A84E2900038E8FD /* Info.plist */,
+				06EECE632A84F0F60038E8FD /* License.crt */,
+				06EECE5C2A84E2900038E8FD /* main.m */,
+			);
+			path = "ObjectiveC-Player";
+			sourceTree = "<group>";
+		};
+		3DB9F7C4AA0E2A9843DFE339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB950D417CD777FD966BC39 /* Pods_ObjectiveC_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AACC0973CB5D3448012B01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4619804B0837388E464B7 /* Pods-ObjectiveC-Player.debug.xcconfig */,
+				D5A38D4D7C47DEC9780C2539 /* Pods-ObjectiveC-Player.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06EECE462A84E28D0038E8FD /* ObjectiveC-Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EECE602A84E2900038E8FD /* Build configuration list for PBXNativeTarget "ObjectiveC-Player" */;
+			buildPhases = (
+				DE53F716CA85EB22CD1C7362 /* [CP] Check Pods Manifest.lock */,
+				06EECE432A84E28D0038E8FD /* Sources */,
+				06EECE442A84E28D0038E8FD /* Frameworks */,
+				06EECE452A84E28D0038E8FD /* Resources */,
+				05F6488F3259BB2679675239 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveC-Player";
+			productName = "ObjectiveC-Player";
+			productReference = 06EECE472A84E28D0038E8FD /* ObjectiveC-Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06EECE3F2A84E28D0038E8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					06EECE462A84E28D0038E8FD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 06EECE422A84E28D0038E8FD /* Build configuration list for PBXProject "ObjectiveC-Player" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06EECE3E2A84E28D0038E8FD;
+			productRefGroup = 06EECE482A84E28D0038E8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06EECE462A84E28D0038E8FD /* ObjectiveC-Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06EECE452A84E28D0038E8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EECE5A2A84E2900038E8FD /* LaunchScreen.storyboard in Resources */,
+				06EECE642A84F0F60038E8FD /* License.crt in Resources */,
+				06EECE572A84E2900038E8FD /* Assets.xcassets in Resources */,
+				06EECE552A84E28D0038E8FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F6488F3259BB2679675239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE53F716CA85EB22CD1C7362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveC-Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EECE432A84E28D0038E8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EECE6D2A84F1020038E8FD /* HomeNavViewController.m in Sources */,
+				06EECE4C2A84E28D0038E8FD /* AppDelegate.m in Sources */,
+				06EECE5D2A84E2900038E8FD /* main.m in Sources */,
+				06EECE6C2A84F1020038E8FD /* AliPlayerViewController.m in Sources */,
+				06EECE6B2A84F1020038E8FD /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06EECE532A84E28D0038E8FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EECE542A84E28D0038E8FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06EECE582A84E2900038E8FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EECE592A84E2900038E8FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06EECE5E2A84E2900038E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06EECE5F2A84E2900038E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06EECE612A84E2900038E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD4619804B0837388E464B7 /* Pods-ObjectiveC-Player.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXKWR2LZDX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ObjectiveC-Player/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.objective-c-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06EECE622A84E2900038E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A38D4D7C47DEC9780C2539 /* Pods-ObjectiveC-Player.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXKWR2LZDX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ObjectiveC-Player/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.objective-c-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06EECE422A84E28D0038E8FD /* Build configuration list for PBXProject "ObjectiveC-Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EECE5E2A84E2900038E8FD /* Debug */,
+				06EECE5F2A84E2900038E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EECE602A84E2900038E8FD /* Build configuration list for PBXNativeTarget "ObjectiveC-Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EECE612A84E2900038E8FD /* Debug */,
+				06EECE622A84E2900038E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06EECE3F2A84E28D0038E8FD /* Project object */;
+}

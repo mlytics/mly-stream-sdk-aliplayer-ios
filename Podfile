@@ -1,19 +1,19 @@
 workspace 'mly-stream-sdk.xcworkspace'
-project 'swift'
+project 'Swift-AVPlayer'
 
-target 'swift' do 
+target 'Swift-AVPlayer' do 
   use_frameworks!
   platform :ios, '14.0'
-  project 'Examples/swift/swift.xcodeproj'
+  project 'Examples/Swift-AVPlayer/Swift-AVPlayer.xcodeproj'
   
   pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
   pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 end
 
-target 'objective-c' do 
+target 'ObjectiveC-Player' do 
   use_frameworks!
   platform :ios, '14.0'
-  project 'Examples/objective-c/objective-c.xcodeproj'
+  project 'Examples/ObjectiveC-Player/ObjectiveC-Player.xcodeproj'
   
   pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
   pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'

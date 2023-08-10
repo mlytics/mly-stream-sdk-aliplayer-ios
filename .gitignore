@@ -95,3 +95,10 @@ Example/.DS_Store
 */.DS_Store
 *.xcworkspacedata
 *.lock
+*.xcworkspace
+*.vscode
+*.swiftpm
+*.github
+LICENSE
+Examples/ObjectiveC-Player/ObjectiveC-Player/License.crt
+Examples/Swift-AVPlayer/Swift-AVPlayer/License.crt

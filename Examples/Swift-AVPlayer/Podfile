@@ -1,7 +1,7 @@
 platform :ios, '14.0'
 
-target 'swift' do
-  use_frameworks!
+target 'Swift-AVPlayer' do 
+  use_frameworks! 
   pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
   pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 end
