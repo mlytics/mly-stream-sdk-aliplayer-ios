@@ -12,5 +12,5 @@ pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplaye
 ```
 
 ## Sample apps
-* Examples/objective-c - Objective C demo
-* Examples/swift - Swift demo
+* Examples/ObjectiveC-Player - Objective C demo
+* Examples/Swift-Player - Swift demo
