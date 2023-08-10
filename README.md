@@ -2,19 +2,15 @@
 
 ### use MuxStatsAliPlayer pod 
 ```
-  pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 ```
 
 ### use MLYALISDK pod 
 
 ```
-  pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 ```
 
 ## Sample apps
-* Examples/objective-c-demo - Objective C demo
-* Examples/swift-demo - Swift demo
-
-## License
-
-MLYSDK is available under the MIT license. See the LICENSE file for more info.
+* Examples/objective-c - Objective C demo
+* Examples/swift - Swift demo

@@ -1,6 +1,6 @@
 //
 //  main.m
-//  objective-c-demo
+//  objective-c
 //
 //  Created by vip on 2023/3/1.
 //

@@ -25,8 +25,8 @@
 		06B0A75A2A55491C004B9592 /* AliPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliPlayerViewController.h; sourceTree = "<group>"; };
 		06B0A75B2A55491C004B9592 /* HomeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavViewController.h; sourceTree = "<group>"; };
 		06B0A75C2A55491C004B9592 /* AliPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliPlayerViewController.m; sourceTree = "<group>"; };
-		1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.release.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.release.xcconfig"; sourceTree = "<group>"; };
-		28F230C229AF017400D3B6BA /* objective-c-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA580691249FEDB88901F06 /* Pods-objective-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c.release.xcconfig"; path = "Target Support Files/Pods-objective-c/Pods-objective-c.release.xcconfig"; sourceTree = "<group>"; };
+		28F230C229AF017400D3B6BA /* objective-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230C529AF017400D3B6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28F230C629AF017400D3B6BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28F230CB29AF017400D3B6BA /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		28F230D629AF017500D3B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F230D729AF017500D3B6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E003F617346D0AE4C7CD616 /* Pods_objective_c_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objective_c_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.debug.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B17810FDC48C25D8F2E84585 /* Pods-objective-c.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c.debug.xcconfig"; path = "Target Support Files/Pods-objective-c/Pods-objective-c.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		28F230B929AF017400D3B6BA = {
 			isa = PBXGroup;
 			children = (
-				28F230C429AF017400D3B6BA /* objective-c-demo */,
+				28F230C429AF017400D3B6BA /* objective-c */,
 				28F230C329AF017400D3B6BA /* Products */,
 				79E22549B01D731DF4C15B1A /* Pods */,
 				5FF27C92B89CE304980061C7 /* Frameworks */,
@@ -65,12 +65,12 @@
 		28F230C329AF017400D3B6BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28F230C229AF017400D3B6BA /* objective-c-demo.app */,
+				28F230C229AF017400D3B6BA /* objective-c.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28F230C429AF017400D3B6BA /* objective-c-demo */ = {
+		28F230C429AF017400D3B6BA /* objective-c */ = {
 			isa = PBXGroup;
 			children = (
 				062053CE2A4E994F001F5D1B /* License.crt */,
@@ -88,7 +88,7 @@
 				28F230D629AF017500D3B6BA /* Info.plist */,
 				28F230D729AF017500D3B6BA /* main.m */,
 			);
-			path = "objective-c-demo";
+			path = "objective-c";
 			sourceTree = "<group>";
 		};
 		5FF27C92B89CE304980061C7 /* Frameworks */ = {
@@ -102,8 +102,8 @@
 		79E22549B01D731DF4C15B1A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */,
-				1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */,
+				B17810FDC48C25D8F2E84585 /* Pods-objective-c.debug.xcconfig */,
+				1AA580691249FEDB88901F06 /* Pods-objective-c.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../../Pods;
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28F230C129AF017400D3B6BA /* objective-c-demo */ = {
+		28F230C129AF017400D3B6BA /* objective-c */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F230DB29AF017500D3B6BA /* Build configuration list for PBXNativeTarget "objective-c-demo" */;
+			buildConfigurationList = 28F230DB29AF017500D3B6BA /* Build configuration list for PBXNativeTarget "objective-c" */;
 			buildPhases = (
 				1EFF619C948364FAEECF90D2 /* [CP] Check Pods Manifest.lock */,
 				28F230BE29AF017400D3B6BA /* Sources */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "objective-c-demo";
-			productName = "objective-c-demo";
-			productReference = 28F230C229AF017400D3B6BA /* objective-c-demo.app */;
+			name = "objective-c";
+			productName = "objective-c";
+			productReference = 28F230C229AF017400D3B6BA /* objective-c.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28F230BD29AF017400D3B6BA /* Build configuration list for PBXProject "objective-c-demo" */;
+			buildConfigurationList = 28F230BD29AF017400D3B6BA /* Build configuration list for PBXProject "objective-c" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28F230C129AF017400D3B6BA /* objective-c-demo */,
+				28F230C129AF017400D3B6BA /* objective-c */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +193,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-objective-c-demo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-objective-c-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -206,15 +206,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-objective-c/Pods-objective-c-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-objective-c/Pods-objective-c-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objective-c/Pods-objective-c-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,7 +366,7 @@
 		};
 		28F230DC29AF017500D3B6BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */;
+			baseConfigurationReference = B17810FDC48C25D8F2E84585 /* Pods-objective-c.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,7 +374,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "objective-c-demo/Info.plist";
+				INFOPLIST_FILE = "objective-c/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -385,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.objective-c-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.objective-c";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,7 +394,7 @@
 		};
 		28F230DD29AF017500D3B6BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */;
+			baseConfigurationReference = 1AA580691249FEDB88901F06 /* Pods-objective-c.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -402,7 +402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "objective-c-demo/Info.plist";
+				INFOPLIST_FILE = "objective-c/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -413,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.objective-c-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.objective-c";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28F230BD29AF017400D3B6BA /* Build configuration list for PBXProject "objective-c-demo" */ = {
+		28F230BD29AF017400D3B6BA /* Build configuration list for PBXProject "objective-c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F230D929AF017500D3B6BA /* Debug */,
@@ -432,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F230DB29AF017500D3B6BA /* Build configuration list for PBXNativeTarget "objective-c-demo" */ = {
+		28F230DB29AF017500D3B6BA /* Build configuration list for PBXNativeTarget "objective-c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F230DC29AF017500D3B6BA /* Debug */,

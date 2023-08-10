@@ -1,8 +1,7 @@
 platform :ios, '14.0'
 
-target 'objective-c-demo' do
+target 'swift' do
   use_frameworks!
-
   pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
   pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 end

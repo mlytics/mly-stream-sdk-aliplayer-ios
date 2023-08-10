@@ -22,15 +22,15 @@
 		062053CC2A4E9926001F5D1B /* License.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.crt; sourceTree = "<group>"; };
 		06B0A74F2A55482A004B9592 /* AliPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPlayerViewController.swift; sourceTree = "<group>"; };
 		06B0A7502A55482A004B9592 /* HomeNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavViewController.swift; sourceTree = "<group>"; };
-		28F230A229AF014C00D3B6BA /* swift-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F230A229AF014C00D3B6BA /* swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230A529AF014C00D3B6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F230A929AF014C00D3B6BA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		28F230AC29AF014C00D3B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F230AE29AF014D00D3B6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F230B129AF014D00D3B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F230B329AF014D00D3B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEF4D2F55DAEA544E2457E9D /* Pods-swift-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-demo.debug.xcconfig"; path = "../examples/swift-demo/Pods/Target Support Files/Pods-swift-demo/Pods-swift-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		D92BCA699AE436044B6243EA /* Pods-swift-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-demo.release.xcconfig"; path = "../examples/swift-demo/Pods/Target Support Files/Pods-swift-demo/Pods-swift-demo.release.xcconfig"; sourceTree = "<group>"; };
+		AEF4D2F55DAEA544E2457E9D /* Pods-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift.debug.xcconfig"; path = "../examples/swift/Pods/Target Support Files/Pods-swift/Pods-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		D92BCA699AE436044B6243EA /* Pods-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift.release.xcconfig"; path = "../examples/swift/Pods/Target Support Files/Pods-swift/Pods-swift.release.xcconfig"; sourceTree = "<group>"; };
 		E68CA71FFB6284A326970E73 /* Pods_swift_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 		28F2309929AF014C00D3B6BA = {
 			isa = PBXGroup;
 			children = (
-				28F230A429AF014C00D3B6BA /* swift-demo */,
+				28F230A429AF014C00D3B6BA /* swift */,
 				28F230A329AF014C00D3B6BA /* Products */,
 				74E62CA4BC469EBD6855B405 /* Pods */,
 				0D2248D57734E32E7EF12CBF /* Frameworks */,
@@ -67,12 +67,12 @@
 		28F230A329AF014C00D3B6BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28F230A229AF014C00D3B6BA /* swift-demo.app */,
+				28F230A229AF014C00D3B6BA /* swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28F230A429AF014C00D3B6BA /* swift-demo */ = {
+		28F230A429AF014C00D3B6BA /* swift */ = {
 			isa = PBXGroup;
 			children = (
 				062053CC2A4E9926001F5D1B /* License.crt */,
@@ -85,14 +85,14 @@
 				28F230B029AF014D00D3B6BA /* LaunchScreen.storyboard */,
 				28F230B329AF014D00D3B6BA /* Info.plist */,
 			);
-			path = "swift-demo";
+			path = "swift";
 			sourceTree = "<group>";
 		};
 		74E62CA4BC469EBD6855B405 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AEF4D2F55DAEA544E2457E9D /* Pods-swift-demo.debug.xcconfig */,
-				D92BCA699AE436044B6243EA /* Pods-swift-demo.release.xcconfig */,
+				AEF4D2F55DAEA544E2457E9D /* Pods-swift.debug.xcconfig */,
+				D92BCA699AE436044B6243EA /* Pods-swift.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../../Pods;
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28F230A129AF014C00D3B6BA /* swift-demo */ = {
+		28F230A129AF014C00D3B6BA /* swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F230B629AF014D00D3B6BA /* Build configuration list for PBXNativeTarget "swift-demo" */;
+			buildConfigurationList = 28F230B629AF014D00D3B6BA /* Build configuration list for PBXNativeTarget "swift" */;
 			buildPhases = (
 				3DE071ADC03246F51757CBA8 /* [CP] Check Pods Manifest.lock */,
 				28F2309E29AF014C00D3B6BA /* Sources */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "swift-demo";
-			productName = "swift-demo";
-			productReference = 28F230A229AF014C00D3B6BA /* swift-demo.app */;
+			name = "swift";
+			productName = "swift";
+			productReference = 28F230A229AF014C00D3B6BA /* swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28F2309D29AF014C00D3B6BA /* Build configuration list for PBXProject "swift-demo" */;
+			buildConfigurationList = 28F2309D29AF014C00D3B6BA /* Build configuration list for PBXProject "swift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28F230A129AF014C00D3B6BA /* swift-demo */,
+				28F230A129AF014C00D3B6BA /* swift */,
 			);
 		};
 /* End PBXProject section */
@@ -174,15 +174,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-swift-demo/Pods-swift-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-swift/Pods-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-swift-demo/Pods-swift-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-swift/Pods-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-demo/Pods-swift-demo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift/Pods-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3DE071ADC03246F51757CBA8 /* [CP] Check Pods Manifest.lock */ = {
@@ -200,7 +200,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-swift-demo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-swift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,7 +359,7 @@
 		};
 		28F230B729AF014D00D3B6BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEF4D2F55DAEA544E2457E9D /* Pods-swift-demo.debug.xcconfig */;
+			baseConfigurationReference = AEF4D2F55DAEA544E2457E9D /* Pods-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -367,7 +367,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "swift-demo/Info.plist";
+				INFOPLIST_FILE = "swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -378,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.swift-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -388,7 +388,7 @@
 		};
 		28F230B829AF014D00D3B6BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D92BCA699AE436044B6243EA /* Pods-swift-demo.release.xcconfig */;
+			baseConfigurationReference = D92BCA699AE436044B6243EA /* Pods-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,7 +396,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "swift-demo/Info.plist";
+				INFOPLIST_FILE = "swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -407,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.swift-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -418,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28F2309D29AF014C00D3B6BA /* Build configuration list for PBXProject "swift-demo" */ = {
+		28F2309D29AF014C00D3B6BA /* Build configuration list for PBXProject "swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F230B429AF014D00D3B6BA /* Debug */,
@@ -427,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F230B629AF014D00D3B6BA /* Build configuration list for PBXNativeTarget "swift-demo" */ = {
+		28F230B629AF014D00D3B6BA /* Build configuration list for PBXNativeTarget "swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F230B729AF014D00D3B6BA /* Debug */,
