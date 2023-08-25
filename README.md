@@ -2,13 +2,13 @@
 
 ### use MuxStatsAliPlayer pod 
 ```
-pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+pod 'MuxStatsAliPlayer', :git => 'https://github.com/BensonLetr/lib0612.git'
 ```
 
-### use MLYALISDK pod 
+### use MLYAliSDK pod 
 
 ```
-pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+pod 'MLYAliSDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
 ```
 
 ## Sample apps

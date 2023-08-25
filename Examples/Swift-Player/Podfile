@@ -2,8 +2,8 @@ platform :ios, '14.0'
 
 target 'Swift-Player' do 
   use_frameworks! 
-  pod 'MLYALISDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
-  pod 'MuxStatsAliPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+  pod 'MLYAliSDK', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer.git'
+  pod 'MuxStatsAliPlayer', :git => 'https://github.com/BensonLetr/lib0612.git'
 end
 
 post_install do |installer|

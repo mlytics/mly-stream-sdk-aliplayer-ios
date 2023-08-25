@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
-  s.name         = "MLYALISDK"
-  s.version      = "0.2.1.6"
-  s.summary      = "A short description of MLYALISDK."
-  s.description      = 'MLYALISDK'
+  s.name         = "MLYAliSDK"
+  s.version      = "0.2.1.7"
+  s.summary      = "A short description of MLYAliSDK."
+  s.description      = 'MLYAliSDK'
   s.homepage         = 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer' 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mlytics' => 'rd@mlytics.com' }
