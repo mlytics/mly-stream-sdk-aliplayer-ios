@@ -1,10 +1,5 @@
 # mly-stream-sdk-ios-aliplayer
 
-### use MuxStatsAliPlayer pod 
-```
-pod 'MuxStatsAliPlayer', :git => 'https://github.com/BensonLetr/lib0612.git'
-```
-
 ### use MLYAliSDK pod 
 
 ```
