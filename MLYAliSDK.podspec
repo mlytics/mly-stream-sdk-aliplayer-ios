@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MLYAliSDK"
-  s.version      = "0.2.1.7"
+  s.version      = "0.2.1.8"
   s.summary      = "A short description of MLYAliSDK."
   s.description      = 'MLYAliSDK'
   s.homepage         = 'https://github.com/mlytics/mly-stream-sdk-ios-aliplayer' 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'GENERATE_INFOPLIST_FILE' => 'YES' }
 
-  s.ios.vendored_frameworks = 'Archives/MLYSDK.xcframework'
+  s.ios.vendored_frameworks = 'Archives/MLYAliSDK.xcframework'
 
   s.dependency 'Mux-Stats-AVPlayer', '3.1.0' 
   s.dependency 'MuxStatsAliPlayer'
